@@ -56,8 +56,11 @@ function App() {
       {/* NAVIGATION */}
       <header className="navbar">
         <a className="brand" href="#home">
-          <span className="brand-icon">L</span>
-          <strong>LIZAA</strong>
+          <img
+            src="/LIZAA-LOGO.png"
+            alt="LIZAA Logo"
+            className="brand-logo"
+          />
         </a>
 
         <nav>

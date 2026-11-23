@@ -69,8 +69,8 @@ button {
 
 .navbar {
   width: 100%;
-  min-height: 84px;
-  padding: 15px 7%;
+  min-height: 100px;
+  padding: 12px 7%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -87,6 +87,7 @@ button {
   align-items: center;
   gap: 10px;
   color: var(--green);
+  flex-shrink: 0;
 }
 
 .brand strong {
@@ -106,6 +107,16 @@ button {
   align-items: center;
   font-size: 20px;
   font-weight: 800;
+}
+
+/* LIZAA BRAND LOGO */
+
+.brand-logo {
+  height: 70px;
+  width: auto;
+  max-width: 240px;
+  object-fit: contain;
+  display: block;
 }
 
 .navbar nav {
@@ -548,6 +559,11 @@ footer > small {
     gap: 17px;
   }
 
+  .brand-logo {
+    height: 62px;
+    max-width: 210px;
+  }
+
   .hero {
     padding: 65px 5%;
     gap: 25px;
@@ -586,6 +602,11 @@ footer > small {
     width: 31px;
     height: 31px;
     font-size: 17px;
+  }
+
+  .brand-logo {
+    height: 55px;
+    max-width: 180px;
   }
 
   .navbar nav {
